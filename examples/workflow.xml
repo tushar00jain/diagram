@@ -1,0 +1,20 @@
+<diagrams target="workflow.md">
+  <diagram id="workflow">
+    <row gap="5">
+      <box title="Input" width="14">
+        <line>Read files</line>
+        <line>Check format</line>
+      </box>
+      <between><at row="2">───▶</at></between>
+      <box title="Process" width="14">
+        <line>Transform</line>
+        <line>Validate</line>
+      </box>
+      <between><at row="2">───▶</at></between>
+      <box title="Output" width="14">
+        <line>Save results</line>
+        <line>Write summary</line>
+      </box>
+    </row>
+  </diagram>
+</diagrams>
